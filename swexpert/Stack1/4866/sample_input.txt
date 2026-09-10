@@ -1,0 +1,11 @@
+10
+print('{} {}'.format(1, 2))
+N, M = map(int, input().split())
+print('#{} {}'.format(tc, find())
+data = {'a': (1, 2), 'b': (3, 4)}
+values = (1, 2, 3
+{(())}
+{( })
+{( )}
+def calc(a, b): return (a * b) + (a - b)
+foo = {1: (2, 3), 2: (4, 5)
