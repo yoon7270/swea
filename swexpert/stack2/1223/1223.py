@@ -1,14 +1,13 @@
 import sys
 sys.stdin = open("input.txt", "r")
+b = {'*' : 2, '+' : 1}
 T = 10
 for test_case in range(1, T+1):
-    length = int(input())
-    li = list(input())
+    leng = int(input())
+    calc = list(input().split())
     num = []
-    code = []
-    for i in li:
-        if i.isdigit():
-            num.append(i)
-        elif i == '+' or i == '*':
-            if code and code[-1] ==
-    print(''.join(map(str, num)))
+    bi = []
+    for i in calc:
+        if bi and i in b.keys():
+            
+    print(calc)
