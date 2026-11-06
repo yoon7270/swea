@@ -13,6 +13,7 @@ def num_find(S, G, li):
 
     return 0
 
+    
 
 T = int(input())
 for test_case in range(1, T + 1):
